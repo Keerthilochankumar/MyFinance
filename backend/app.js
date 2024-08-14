@@ -6,10 +6,7 @@ const cors = require('cors');
 
 const app = express();
 
-
-
-
-
+//for docker
 app.use(cors());
 app.use(bodyParser.json());
 app.use('/api', router);
