@@ -16,7 +16,6 @@ exports.addSaving = async (req, res) => {
 exports.getSavings = async (req, res) => {
   const userId = req.user.id;
   try {
-    console.log(userId);
     const savings = await Saving.findAll( { where: { userId } });
     if (!savings) return res.status(404).json({ message: 'No savings found' });
     res.json({ savings });
