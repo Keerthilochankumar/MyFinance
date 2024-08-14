@@ -2,8 +2,12 @@ on:
   push:
     branches:
       - develop
-  pull_request:
-    branches: [master]
+      - main
+  pull_request: # Trigger the workflow on pull requests targeting the specified branches
+      branches:
+        - develop
+        - main
+
 
 jobs:
   Jest:
