@@ -1,13 +1,19 @@
-const { Sequelize, Transaction } = require('sequelize');
+const { Sequelize } = require('sequelize');
 const config = require('../config/config.js'); // Make sure this path is correct
 
 const env = process.env.NODE_ENV || 'development';
 const dbConfig = config[env];
 
-const sequelize = new Sequelize(dbConfig.url, {
-  dialect: dbConfig.dialect,
-});
-  
+let sequelize;
+if (dbConfig.use_env_variable) {
+  sequelize = new Sequelize(process.env[dbConfig.use_env_variable], {
+    dialect: dbConfig.dialect,
+  });
+} else {
+  sequelize = new Sequelize(dbConfig.url, {
+    dialect: dbConfig.dialect,
+  });
+}
 
 const db = {
   sequelize,
@@ -16,9 +22,9 @@ const db = {
   Transaction: require('./transaction')(sequelize, Sequelize),
   Bill: require('./bill')(sequelize, Sequelize),
   Saving: require('./saving')(sequelize, Sequelize),
-  
 };
-// check if the connection is successful
+
+// Check if the connection is successful
 (async () => {
   try {
     await sequelize.authenticate();
