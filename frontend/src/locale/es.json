@@ -1,0 +1,123 @@
+{
+  "translations": {
+    "welcome": "Bienvenido a",
+    "title": "MI FINANZA",
+    "signUp": "Regístrate",
+    "logIn": "Iniciar Sesión"
+  },
+  "login": {
+    "welcome": "Bienvenido a Mi Finanzas",
+    "description": "Inicia sesión en Mi Finanzas para comenzar a gestionar mejor tus finanzas",
+    "emailLabel": "Dirección de Correo Electrónico",
+    "passwordLabel": "Contraseña",
+    "signInButton": "Iniciar sesión →",
+    "signUpPrompt": "Si no te has registrado, entonces Regístrate"
+  },
+  "register": {
+    "welcome": "Bienvenido a Mi Finanzas",
+    "description": "Regístrate en Mi Finanzas para comenzar a gestionar mejor tus finanzas",
+    "usernameLabel": "Nombre de Usuario",
+    "emailLabel": "Dirección de Correo Electrónico",
+    "passwordLabel": "Contraseña",
+    "signUpButton": "Regístrate →",
+    "signInPrompt": "Si ya te has registrado, entonces Inicia sesión"
+  },
+  "dashboard": {
+    "title": "Facturas Próximas",
+    "noBills": "No hay facturas próximas",
+    "amount": "Cantidad:",
+    "toWhom": "Para:",
+    "dueDate": "Fecha de Vencimiento:"
+  },
+  "Financial Report": "Informe Financiero",
+  "Overall Financial Overview": "Visión General Financiera",
+  "Transaction Categories": "Categorías de Transacciones",
+  "Details": "Detalles",
+  "Total Income": "Ingresos Totales",
+  "Total Expenses": "Gastos Totales",
+  "Total Balance": "Saldo Total",
+  "Yearly Income": "Ingresos Anuales",
+  "Yearly Expenses": "Gastos Anuales",
+  "Yearly Balance": "Saldo Anual",
+  "Monthly Income": "Ingresos Mensuales",
+  "Monthly Expenses": "Gastos Mensuales",
+  "Monthly Balance": "Saldo Mensual",
+  "Daily Income": "Ingresos Diarios",
+  "Daily Expenses": "Gastos Diarios",
+  "Daily Balance": "Saldo Diario",
+  "Total Savings": "Ahorros Totales",
+  "Average Monthly Savings": "Ahorros Mensuales Promedio",
+  "Upcoming Bills Count": "Conteo de Facturas Pendientes",
+  "Loading report...": "Cargando informe...",
+  "bills": {
+    "title": "Facturas"
+  },
+  "billForm": {
+    "title": "Título",
+    "amount": "Monto",
+    "currency": "Moneda",
+    "toWhom": "A Quién",
+    "dueDate": "Fecha de Vencimiento",
+    "addButton": "Añadir Factura"
+  },
+  "billHistory": {
+    "amount": "Monto",
+    "currency": "Moneda",
+    "toWhom": "A Quién",
+    "dueDate": "Fecha de Vencimiento",
+    "updateBill": "Actualizar Factura",
+    "title": "Título",
+    "saveButton": "Guardar",
+    "cancelButton": "Cancelar",
+    "editButton": "Editar",
+    "deleteButton": "Eliminar"
+  },
+  "savings": {
+    "title": "Ahorros"
+  },
+  "savingForm": {
+    "amount": "Monto",
+    "currency": "Moneda",
+    "desc": "Descripción",
+    "date": "Fecha",
+    "addButton": "Añadir Ahorro"
+  },
+  "savingHistory": {
+    "amount": "Monto",
+    "currency": "Moneda",
+    "desc": "Descripción",
+    "date": "Fecha",
+    "updateSaving": "Actualizar Ahorro",
+    "saveButton": "Guardar",
+    "cancelButton": "Cancelar",
+    "editButton": "Editar",
+    "deleteButton": "Eliminar"
+  },
+  "transactions": {
+    "title": "Transacciones"
+  },
+  "transactionForm": {
+    "selectType": "Seleccionar Tipo",
+    "income": "Ingreso",
+    "expense": "Gasto",
+    "amount": "Monto",
+    "currency": "Moneda",
+    "category": "Categoría",
+    "desc": "Descripción",
+    "date": "Fecha",
+    "addButton": "Añadir Transacción"
+  },
+  "transactionHistory": {
+    "type": "Tipo",
+    "amount": "Monto",
+    "currency": "Moneda",
+    "category": "Categoría",
+    "desc": "Descripción",
+    "date": "Fecha",
+    "updateTransaction": "Actualizar Transacción",
+    "saveButton": "Guardar",
+    "cancelButton": "Cancelar",
+    "editButton": "Editar",
+    "deleteButton": "Eliminar"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "translations": {
+    "welcome": "Welcome to",
+    "title": "MY FINANCE",
+    "signUp": "Sign Up",
+    "logIn": "Log In"
+  },
+  "login": {
+    "welcome": "Welcome to My Finance",
+    "description": "Sign in to My Finance to start managing your finances better",
+    "emailLabel": "Email Address",
+    "passwordLabel": "Password",
+    "signInButton": "Sign in →",
+    "signUpPrompt": "If you haven't registered, then Sign Up"
+  },
+  "register": {
+    "welcome": "Welcome to My Finance",
+    "description": "Sign up to My Finance to start managing your finances better",
+    "usernameLabel": "User Name",
+    "emailLabel": "Email Address",
+    "passwordLabel": "Password",
+    "signUpButton": "Sign up →",
+    "signInPrompt": "If you have already registered, then Sign in"
+  },
+  
+    "dashboard": {
+      "title": "Upcoming Bills",
+      "noBills": "No upcoming bills",
+      "amount": "Amount:",
+      "toWhom": "To:",
+      "dueDate": "Due Date:"
+    },
+  "Financial Report": "Financial Report",
+  "Overall Financial Overview": "Overall Financial Overview",
+  "Transaction Categories": "Transaction Categories",
+  "Details": "Details",
+  "Total Income": "Total Income",
+  "Total Expenses": "Total Expenses",
+  "Total Balance": "Total Balance",
+  "Yearly Income": "Yearly Income",
+  "Yearly Expenses": "Yearly Expenses",
+  "Yearly Balance": "Yearly Balance",
+  "Monthly Income": "Monthly Income",
+  "Monthly Expenses": "Monthly Expenses",
+  "Monthly Balance": "Monthly Balance",
+  "Daily Income": "Daily Income",
+  "Daily Expenses": "Daily Expenses",
+  "Daily Balance": "Daily Balance",
+  "Total Savings": "Total Savings",
+  "Average Monthly Savings": "Average Monthly Savings",
+  "Upcoming Bills Count": "Upcoming Bills Count",
+  "Loading report...": "Loading report...",
+  "bills": {
+    "title": "Bills"
+  },
+  "billForm": {
+    "title": "Title",
+    "amount": "Amount",
+    "currency": "Currency",
+    "toWhom": "To Whom",
+    "dueDate": "Due Date",
+    "addButton": "Add Bill"
+  },
+  "billHistory": {
+    "amount": "Amount",
+    "currency": "Currency",
+    "toWhom": "To Whom",
+    "dueDate": "Due Date",
+    "updateBill": "Update Bill",
+    "title": "Title",
+    "saveButton": "Save",
+    "cancelButton": "Cancel",
+    "editButton": "Edit",
+    "deleteButton": "Delete"
+  },
+  "savings": {
+    "title": "Savings"
+  },
+  "savingForm": {
+    "amount": "Amount",
+    "currency": "Currency",
+    "desc": "Description",
+    "date": "Date",
+    "addButton": "Add Saving"
+  },
+  "savingHistory": {
+    "amount": "Amount",
+    "currency": "Currency",
+    "desc": "Description",
+    "date": "Date",
+    "updateSaving": "Update Saving",
+    "saveButton": "Save",
+    "cancelButton": "Cancel",
+    "editButton": "Edit",
+    "deleteButton": "Delete"
+  },
+  "transactions": {
+    "title": "Transactions"
+  },
+  "transactionForm": {
+    "selectType": "Select Type",
+    "income": "Income",
+    "expense": "Expense",
+    "amount": "Amount",
+    "currency": "Currency",
+    "category": "Category",
+    "desc": "Description",
+    "date": "Date",
+    "addButton": "Add Transaction"
+  },
+  "transactionHistory": {
+    "type": "Type",
+    "amount": "Amount",
+    "currency": "Currency",
+    "category": "Category",
+    "desc": "Description",
+    "date": "Date",
+    "updateTransaction": "Update Transaction",
+    "saveButton": "Save",
+    "cancelButton": "Cancel",
+    "editButton": "Edit",
+    "deleteButton": "Delete"
+  }
+  
+}

@@ -4,6 +4,7 @@ const { addBill, getBills, editBill, deleteBill } = require('./controllers/bills
 const { addSaving, getSavings, editSaving, deleteSaving } = require('./controllers/savings');
 const { addTransaction, getTransactions, editTransaction, deleteTransaction } = require('./controllers/transactions');
 const { authMiddleware } = require('./middleware/auth');
+const { getReport } = require('./controllers/Report');
 
 const router = express.Router();
 
@@ -29,5 +30,6 @@ router.post('/transactions', authMiddleware, addTransaction);
 router.get('/transactions', authMiddleware, getTransactions);
 router.put('/transactions/:id', authMiddleware, editTransaction);
 router.delete('/transactions/:id', authMiddleware, deleteTransaction);
-
+//Reports routes
+router.get('/report', authMiddleware, getReport);
 module.exports = router;
