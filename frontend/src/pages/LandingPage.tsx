@@ -1,9 +1,9 @@
 import React from 'react';
-import RetroGrid from "../../@/components/magicui/retro-grid";
-import PulsatingButton from '../../@/components/magicui/pulsating-button';
-import HyperText from '../../@/components/magicui/hyper-text';
+import RetroGrid from "../components/magicui/retro-grid";
+import PulsatingButton from '../components/magicui/pulsating-button';
+import HyperText from '../components/magicui/hyper-text';
 import { useNavigate } from 'react-router-dom';
-import BlurFade from "../../@/components/magicui/blur-fade";
+import BlurFade from "../components/magicui/blur-fade";
 import { useTranslation} from 'react-i18next';
 
 const lngs: { [key: string]: { nativeName: string } } = {
