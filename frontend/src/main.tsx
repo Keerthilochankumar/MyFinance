@@ -6,7 +6,6 @@ import './index.css';
 import "./i18n"
 
 import * as Sentry from "@sentry/react";
-console.log(process.env.REACT_APP_SENTRY_DSN)
 Sentry.init({
   dsn:"https://2ea455bcabb43ff0557f9f3b553bc26a@o4507849787113472.ingest.us.sentry.io/4507855893626880",
   integrations: [
