@@ -5,7 +5,7 @@ const { addSaving, getSavings, editSaving, deleteSaving } = require('./controlle
 const { addTransaction, getTransactions, editTransaction, deleteTransaction } = require('./controllers/transactions');
 const { authMiddleware } = require('./middleware/auth');
 const { getReport } = require('./controllers/Report');
-
+const { handleFinancialOperation } = require('./controllers/chat');
 const router = express.Router();
 
 // Auth routes
@@ -32,4 +32,6 @@ router.put('/transactions/:id', authMiddleware, editTransaction);
 router.delete('/transactions/:id', authMiddleware, deleteTransaction);
 //Reports routes
 router.get('/report', authMiddleware, getReport);
+
+router.post('/chat', authMiddleware, handleFinancialOperation);
 module.exports = router;

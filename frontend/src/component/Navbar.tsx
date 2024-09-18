@@ -10,6 +10,11 @@ const Navbar: React.FC = () => {
     i18n.changeLanguage(lng);
   };
 
+  const handleLogout = () => {
+    localStorage.removeItem('token');
+    window.location.href = '/';
+  };
+
   return (
     <nav className="bg-gray-800 text-white h-screen p-4 fixed w-64">
       <ul className="space-y-4">
@@ -38,6 +43,11 @@ const Navbar: React.FC = () => {
             Reports
           </Link>
         </li>
+        <li>
+          <Link to="/chat" className="hover:underline block">
+           chat
+           </Link>
+        </li>
       </ul>
       <div className="mt-8">
         <button
@@ -52,6 +62,13 @@ const Navbar: React.FC = () => {
         >
           ES
         </button>
+        <button 
+           onClick={()=> handleLogout()}
+            className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"  
+        >
+          Logout
+        </button>
+
       </div>
     </nav>
   );

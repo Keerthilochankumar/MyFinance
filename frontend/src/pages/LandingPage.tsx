@@ -22,7 +22,7 @@ const LandingPage: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <header className="absolute top-5 right-5">
-      return <button onClick={() => methodDoesNotExist()}>Break the world</button>;
+    <button onClick={() => methodDoesNotExist()}>Break the world</button>;
         {Object.keys(lngs).map((lng) => (
           <button
             key={lng}

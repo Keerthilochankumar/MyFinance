@@ -10,6 +10,9 @@ export default defineConfig({
   }), sentryVitePlugin({
     org: "test-azj",
     project: "javascript-react"
+  }), sentryVitePlugin({
+    org: "test-azj",
+    project: "javascript-react-6n"
   })],
 
   publicDir:'src/',
