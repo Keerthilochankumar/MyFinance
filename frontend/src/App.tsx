@@ -9,6 +9,7 @@ import Transactions from './component/pages/Transactions';
 import Register from './components/Auth/Register';
 import Login from './components/Auth/Login';
 import FinancialReport from './pages/Report';
+import Chatbot from './component/ChatBot';
 
 
 const App: React.FC = () => {
@@ -25,6 +26,7 @@ const App: React.FC = () => {
               <Route path='/saving' element={<Savings/>} />
               <Route path='/signup' element={<Register/>} />
               <Route path='/signin' element={<Login/>} />
+              <Route path='/chat' element={<Chatbot/>} />
             </Routes>
         </div>
       </Router>
