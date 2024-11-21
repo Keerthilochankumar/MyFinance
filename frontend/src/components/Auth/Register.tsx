@@ -18,7 +18,7 @@ export function Register() {
     e.preventDefault();
     try {
       await axios.post('http://localhost:3000/api/signup', { email, username, password });
-      navigate('/login');
+      navigate('/signin');
     } catch (error) {
       console.error('Registration error:', error);
     }

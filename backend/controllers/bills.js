@@ -1,6 +1,7 @@
 const { Bill } = require('../models');
 
 // Add a new bill
+// for test
 exports.addBill = async (req, res) => {
   const { title, amount, currency, toWhom, dueDate } = req.body;
   const userId = req.user.id;
